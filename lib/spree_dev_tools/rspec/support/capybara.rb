@@ -23,7 +23,7 @@ end
 
 RSpec.configure do |config|
   config.before(:each, js: true) do
-    Capybara.page.driver.browser.manage.window.resize_to(1400, 900)
+    # Capybara.page.driver.browser.manage.window.resize_to(1400, 900)
   end
 
   config.include CapybaraSelect2
